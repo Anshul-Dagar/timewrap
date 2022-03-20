@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Animator TimeWarp Filter</title>
 
     <style>
@@ -13,7 +14,7 @@
 
       html,
       body {
-        background-image: linear-gradient(-75deg, #E4AEC5 50%, #FAD9E6 50%);
+        background-image: linear-gradient(-80deg, #E4AEC5 50%, #FAD9E6 50%);
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
           Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
           'Segoe UI Symbol';
@@ -25,8 +26,8 @@
         margin: 2rem 2rem 2rem 4rem;
         align-items: center;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        flex-direction: row;
+        justify-content: space-between;
         background-color:#F68989;
         max-width: 90vw;
         padding:2rem;
@@ -62,7 +63,11 @@
 
       h1 {
         font-size: 1.5rem;
-        margin: 0;
+        flex: 2;
+      }
+      a {
+        flex: 1;
+        decoration: none;
       }
 
       .controls {
@@ -129,8 +134,10 @@
   <body>
 
   <header>
-    <h1>Animator TimeWrap Filter
-    </h1>
+    <a href="http://localhost:3000/">
+      <i class="fa fa-hand-o-left" style="font-size:48px;color:black"></i>
+    </a>
+      <h1>Animator TimeWrap Filter</h1>
   </header>
     <main>
 
